@@ -10,7 +10,7 @@
 
   <title>Grynd Distrikt</title>
 
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="./style.css" />
 
 </head>
 
@@ -18,15 +18,17 @@
 
 
 
+<!-- HERO -->
+
 <section class="hero">
 
-  <div class="fallback-bg"></div>
+  <div class="fallback"></div>
 
 
 
   <video class="bg-video" autoplay muted loop playsinline>
 
-    <source src="video.mp4" type="video/mp4" />
+    <source src="./video.mp4" type="video/mp4" />
 
   </video>
 
@@ -34,25 +36,193 @@
 
   <div class="overlay">
 
-    <h1>GRYND DISTRIKT</h1>
+    <h1>GRYND<br/>DISTRIKT</h1>
 
-    <p>Where the hustle meets luxury.</p>
+    <p class="tagline">Where the Hustle Meets Luxury.</p>
 
 
 
     <div class="cta">
 
-      <a class="btn primary" href="grynd-distrikt-drip.square.site">Enter Drip Distrikt</a>
+      <a class="btn primary"
 
-      <a class="btn" href="https://book.stripe.com/eVqfZheYl5OramKbq424000
+         href="https://grynd-distrikt-drip.square.site"
 
-">Book Sound Distrikt</a>
+         target="_blank" rel="noopener">
+
+         Enter Drip Distrikt
+
+      </a>
+
+
+
+      <a class="btn"
+
+         href="#sound">
+
+         Book Sound Distrikt
+
+      </a>
+
+
+
+      <a class="btn ghost"
+
+         href="#cuts">
+
+         Cuts Distrikt
+
+      </a>
 
     </div>
 
   </div>
 
 </section>
+
+
+
+<!-- ABOUT / BRAND -->
+
+<section class="section dark">
+
+  <h2>Built From the Grind</h2>
+
+  <p>
+
+    Grynd Distrikt is the foundation — a brand built on discipline, creativity,
+
+    and intention. Each distrikt represents a different craft, unified by one
+
+    standard: quality without shortcuts.
+
+  </p>
+
+</section>
+
+
+
+<!-- DRIP DISTRIKT -->
+
+<section class="section">
+
+  <h2>Drip Distrikt</h2>
+
+  <p>
+
+    Curated streetwear and footwear sourced with intention.
+
+    Authentic pieces for those who wear their story with confidence.
+
+  </p>
+
+
+
+  <a class="btn primary"
+
+     href="https://grynd-distrikt-drip.square.site"
+
+     target="_blank" rel="noopener">
+
+     Shop Drip Distrikt
+
+  </a>
+
+</section>
+
+
+
+<!-- SOUND DISTRIKT -->
+
+<section id="sound" class="section dark">
+
+  <h2>Sound Distrikt</h2>
+
+  <p>
+
+    Private mobile recording sessions built for artists who value flexibility,
+
+    quality, and discretion.
+
+  </p>
+
+
+
+  <div class="cta">
+
+    <a class="btn primary"
+
+       href="https://book.stripe.com/9B600j9E1dgT7ay65K24001"
+
+       target="_blank" rel="noopener">
+
+       Book 3-Hour Session
+
+    </a>
+
+
+
+    <a class="btn"
+
+       href="https://book.stripe.com/eVqfZheY15oramKbq424000"
+
+       target="_blank" rel="noopener">
+
+       Book 1-Hour Session
+
+    </a>
+
+  </div>
+
+
+
+  <small class="note">
+
+    * Recording engineer is optional and can be added during checkout.
+
+  </small>
+
+</section>
+
+
+
+<!-- CUTS DISTRIKT -->
+
+<section id="cuts" class="section">
+
+  <h2>Cuts Distrikt</h2>
+
+  <p>
+
+    Coming soon. A premium barber experience built on skill, standards,
+
+    and respect for the craft.
+
+  </p>
+
+
+
+  <span class="coming">Now Loading</span>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+  © <span id="yr"></span> Grynd Distrikt
+
+</footer>
+
+
+
+<script>
+
+  document.getElementById("yr").textContent = new Date().getFullYear();
+
+</script>
 
 
 
