@@ -1,0 +1,85 @@
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+body {
+
+  background: #0b0b0b;
+
+  height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+
+
+.hero {
+
+  position: relative;
+
+  width: 100%;
+
+  height: 100vh;
+
+  overflow: hidden;
+
+}
+
+
+
+video {
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+}
+
+
+
+.logo-text {
+
+  position: relative;
+
+  font-family: 'Arial Black', sans-serif;
+
+  font-size: 10vw;
+
+  text-align: center;
+
+  line-height: 1;
+
+  color: transparent;
+
+
+
+  background: linear-gradient(#fff, #fff);
+
+  -webkit-background-clip: text;
+
+  background-clip: text;
+
+
+
+  mix-blend-mode: screen;
+
+  z-index: 2;
+
+}
