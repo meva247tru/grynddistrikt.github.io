@@ -14,13 +14,7 @@ body {
 
   background: #0b0b0b;
 
-  height: 100vh;
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
+  font-family: Arial, sans-serif;
 
 }
 
@@ -30,9 +24,9 @@ body {
 
   position: relative;
 
-  width: 100%;
-
   height: 100vh;
+
+  width: 100%;
 
   overflow: hidden;
 
@@ -40,9 +34,7 @@ body {
 
 
 
-video {
-
-  position: absolute;
+.hero video {
 
   width: 100%;
 
@@ -54,32 +46,44 @@ video {
 
 
 
-.logo-text {
+.mask-text {
 
-  position: relative;
+  position: absolute;
 
-  font-family: 'Arial Black', sans-serif;
+  inset: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+
 
   font-size: 10vw;
 
-  text-align: center;
+  font-weight: 900;
 
-  line-height: 1;
+  text-transform: uppercase;
+
+
 
   color: transparent;
 
-
-
-  background: linear-gradient(#fff, #fff);
-
-  -webkit-background-clip: text;
-
-  background-clip: text;
+  background: black;
 
 
 
-  mix-blend-mode: screen;
+  -webkit-mask-image: linear-gradient(black, black);
 
-  z-index: 2;
+  -webkit-mask-clip: text;
+
+  -webkit-mask-composite: xor;
+
+
+
+  mask-image: linear-gradient(black, black);
+
+  mask-clip: text;
 
 }
