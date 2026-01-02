@@ -32,9 +32,7 @@ body{
 
 /* HERO */
 
-.hero{
-
-  .brand-logo{
+.brand-logo{
 
   width: 64px;
 
@@ -45,6 +43,10 @@ body{
   margin-bottom: 10px;
 
   opacity: .95;
+
+}
+
+.hero{
 
   position:relative;
 
