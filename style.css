@@ -609,3 +609,131 @@ h1{
   text-align: left;
 
 }
+
+/* ===== HERO OVERLAY CENTER FIX ===== */
+
+.hero {
+
+  position: relative;
+
+  min-height: 100vh;
+
+  overflow: hidden;
+
+}
+
+
+
+/* Overlay container */
+
+.hero .overlay {
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 2;
+
+
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+
+
+  text-align: center;
+
+  padding: 1rem;
+
+}
+
+
+
+/* ===== MAIN LOGO ===== */
+
+.brand-logo {
+
+  display: block;
+
+  width: 320px;        /* DESKTOP SIZE */
+
+  max-width: 80vw;     /* RESPONSIVE */
+
+  height: auto;
+
+  margin-bottom: 1.25rem;
+
+}
+
+
+
+/* Tablet */
+
+@media (max-width: 768px) {
+
+  .brand-logo {
+
+    width: 240px;
+
+  }
+
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 480px) {
+
+  .brand-logo {
+
+    width: 200px;
+
+  }
+
+}
+
+
+
+/* ===== TAGLINE ===== */
+
+.tagline {
+
+  font-size: 1rem;
+
+  letter-spacing: 0.12em;
+
+  text-transform: uppercase;
+
+  margin-bottom: 1.75rem;
+
+  opacity: 0.9;
+
+}
+
+
+
+/* ===== CTA BUTTONS ===== */
+
+.cta {
+
+  display: flex;
+
+  gap: 1rem;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+}
+
+.brand-logo {
+
+  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.45));
+
+}
