@@ -34,6 +34,18 @@ body{
 
 .hero{
 
+  .brand-logo{
+
+  width: 64px;
+
+  height: 64px;
+
+  object-fit: contain;
+
+  margin-bottom: 10px;
+
+  opacity: .95;
+
   position:relative;
 
   height:100vh;
